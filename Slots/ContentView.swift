@@ -36,7 +36,7 @@ struct ContentView: View {
                 third = myArray.randomElement()!
                 
                 if first == second && first == third && second == third {
-                    credits += 10
+                    credits += 15
                 } else {
                     credits -= 5
                 }
